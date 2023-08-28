@@ -1,0 +1,101 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.scoreboard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50vh;
+    max-width: 800px;
+    
+}
+
+.scoreboard:hover{
+    box-shadow: 0px 0px 30px rgba(27, 8, 8, 0.6);
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 20px 0;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: rgb(212, 212, 212);
+}
+
+.team-score {
+    font-size: 65px;
+}
+
+.btn-grp, .btn-grp2{
+    display: flex;
+}
+
+.add-score-btn, .add-five-btn, .sub-score-btn, .sub-five-btn {
+    background-color: #4CAF50;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.add-score-btn:hover, .add-five-btn:hover {
+    background-color:  green;
+}
+
+.sub-score-btn, .sub-five-btn{
+    background-color: rgb(0, 45, 181);
+}
+.sub-five-btn:hover, .sub-score-btn:hover{
+    background-color: blue;
+}
+
+.reset-btn {
+    background-color: #D32F2F; /* Dark red color */
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    margin-top: 10px; /* Add some space above the button */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.reset-btn:hover {
+    background-color: #B71C1C; /* Darker red shade on hover */
+}
