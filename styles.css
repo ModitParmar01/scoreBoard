@@ -1,11 +1,12 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #121212;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: white;
 }
 
 .scoreboard {
@@ -16,7 +17,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: stretch;
-    background-color: white;
+    background-color: #1e1e1e;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -26,7 +27,7 @@ body {
 }
 
 .scoreboard:hover{
-    box-shadow: 0px 0px 30px rgba(27, 8, 8, 0.6);
+    box-shadow: 0px 0px 20px rgba(48, 48, 48, 0.6);
 }
 
 .team {
@@ -49,7 +50,7 @@ body {
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 40px;
-    color: rgb(33, 33, 33);
+    /* color: rgb(33, 33, 33); */
     font-weight: bold  ;
 }
 
@@ -62,26 +63,27 @@ body {
 }
 
 .add-score-btn, .add-five-btn, .sub-score-btn, .sub-five-btn {
-    background-color: #4CAF50;
+    background-color: #388E3C;
     display: inline-block;
     border: none;
     color: white;
     font-size: 30px;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
     margin: 5px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: background-color 0.5s ease-in-out;
 }
 .add-score-btn:hover, .add-five-btn:hover {
-    background-color:  green;
+    background-color:  #256E29;
 }
 
 .sub-score-btn, .sub-five-btn{
-    background-color: rgb(0, 45, 181);
+    background-color: #1976D2;
 }
 .sub-five-btn:hover, .sub-score-btn:hover{
-    background-color: blue;
+    background-color:  #135693;
 }
 
 .reset-btn {
@@ -90,7 +92,7 @@ body {
     color: white;
     font-size: 24px;
     padding: 12px 24px;
-    border-radius: 10px;
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.4s ease;
     margin-top: 10px; /* Add some space above the button */
