@@ -58,8 +58,9 @@ body {
     font-size: 65px;
 }
 
-.btn-grp, .btn-grp2{
-    display: flex;
+.group{
+    display: flexbox;
+    margin-top: 30px;
 }
 
 .add-score-btn, .add-five-btn, .sub-score-btn, .sub-five-btn {
@@ -95,7 +96,7 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.4s ease;
-    margin-top: 40px; /* Add some space above the button */
+    margin-top: 90px; /* Add some space above the button */
     font-family: "Helvetica", sans-serif;
 }
 
