@@ -55,12 +55,13 @@ body {
 }
 
 .team-score {
-    font-size: 65px;
+    margin-top: 25px;
+    font-size: 80px;
 }
 
 .group{
     display: flexbox;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .add-score-btn, .add-five-btn, .sub-score-btn, .sub-five-btn {
@@ -70,7 +71,7 @@ body {
     color: white;
     font-size: 30px;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 30px;
     cursor: pointer;
     margin: 5px;
     font-family: "Helvetica", sans-serif;
@@ -93,10 +94,10 @@ body {
     color: white;
     font-size: 24px;
     padding: 12px 24px;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.4s ease;
-    margin-top: 90px; /* Add some space above the button */
+    margin-top: 65px; /* Add some space above the button */
     font-family: "Helvetica", sans-serif;
 }
 
